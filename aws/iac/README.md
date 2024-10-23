@@ -2,5 +2,5 @@
 Configurations provided in
 
   * Terraform
-  * Gitlab CI\CD Terraform
+  * Gitlab CI\CD Terraform pipelines
   * CloudFormation
