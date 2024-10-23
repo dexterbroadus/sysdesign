@@ -14,6 +14,6 @@ Gitlab provides a http backend to store the terraform state. With this and pipel
 
 
 ## Step 1. Create a project in Gitlab
-    Its recommended you create a different project for every type of platform you want to run
+Its recommended you create a different project for every type of platform you want to run
 
-    ![creating blank project in gitlab](/aws/iac/gitlab/eks/private/assets/images/newproject.png)
+![creating blank project in gitlab](/aws/iac/gitlab/eks/private/assets/images/newproject.png)
