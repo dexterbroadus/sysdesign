@@ -1,4 +1,4 @@
-EKS deployment
+# EKS deployment
 
 Creates:
 1 VPC
@@ -8,4 +8,15 @@ Creates:
 1 EKS Cluster
 
 
-Creates a new VPC, two subnets and necessary endpoints to deploy EKS into a private cluster. Please define 2 cluster subnet CIDRs in the subnets.tf file. 
+## Creates a new VPC, two subnets and necessary endpoints to deploy EKS into a private cluster. Please define 2 cluster subnet CIDRs in the subnets.tf file. 
+
+Usage:
+
+```
+
+terraform init
+terraform plan
+terraform apply
+
+
+```
