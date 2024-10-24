@@ -27,3 +27,7 @@ Your pipeline will run in its own Docker container with a terraform image. You c
 Click add variable
 
 ![select CI/CD from the settings menu](/aws/iac/gitlab/eks/private/assets/images/cicdvars2.png)
+
+Add a variable with the key of AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY and the value being your keys
+
+![add access and secret keys](/aws/iac/gitlab/eks/private/assets/images/accesskeys.png)
