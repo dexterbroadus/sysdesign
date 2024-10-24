@@ -23,3 +23,7 @@ Its recommended you create a different project for every type of platform you wa
 Your pipeline will run in its own Docker container with a terraform image. You can use the environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to provide access into your AWS account. Gitlab can store these securely and populate them for you during the pipeline by entering them in the variables field under settings > CI/CD
 
 ![select CI/CD from the settings menu](/aws/iac/gitlab/eks/private/assets/images/cicdvariables1.png)
+
+Click add variable
+
+![select CI/CD from the settings menu] (/aws/iac/gitlab/eks/private/assets/images/cicdvars2.png)
