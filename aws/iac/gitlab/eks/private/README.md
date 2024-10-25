@@ -31,3 +31,8 @@ Click add variable
 Add a variable with the key of AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY and the value being your keys
 
 ![add access and secret keys](/aws/iac/gitlab/eks/private/assets/images/accesskeys.png)
+
+
+Configure the Gitlab backend with terraform. Gitlab provides the correct command under "Operate > Terraform state " 
+
+![add backend](aws/iac/gitlab/eks/private/assets/images/tfstate1.png)
