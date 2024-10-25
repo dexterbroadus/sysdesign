@@ -33,10 +33,17 @@ Add a variable with the key of AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY and t
 ![add access and secret keys](/aws/iac/gitlab/eks/private/assets/images/accesskeys.png)
 
 
-Configure the Gitlab backend with terraform. Gitlab provides the correct command under "Operate > Terraform state " 
+## Step 3. Configure the Gitlab backend with terraform. Gitlab provides the correct command under "Operate > Terraform state " 
 
 ![add backend](/aws/iac/gitlab/eks/private/assets/images/tfstate1.png)
 
 ![command](/aws/iac/gitlab/eks/private/assets/images/tfstate2.png)
 
 ![result](/aws/iac/gitlab/eks/private/assets/images/tfstate4.png)
+
+
+## Step 4. Create Gitlab pipeline file .gitlab-ci.yml
+
+Add execution parameters under workflow, for example, only trigger on a merge request. Then there will be four stages for running thru the terraform cycle: validate, plan, apply and destroy. Before each run we will be sure to reconfigure the backend.
+
+![CI script](/aws/iac/gitlab/eks/private/assets/images/gitlabci.png)
