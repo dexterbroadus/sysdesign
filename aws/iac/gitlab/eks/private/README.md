@@ -39,3 +39,4 @@ Configure the Gitlab backend with terraform. Gitlab provides the correct command
 
 ![command](/aws/iac/gitlab/eks/private/assets/images/tfstate2.png)
 
+![result](/aws/iac/gitlab/eks/private/assets/images/tfstate4.png)
